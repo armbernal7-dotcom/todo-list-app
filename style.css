@@ -1,0 +1,24 @@
+/* CSS reset */
+* {
+    margin: 0px;
+    box-sixing: border-box;
+}
+
+body {
+    background-color: black;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+.main {
+    background-color: gray;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.main {
+    text-align: end;
+}
