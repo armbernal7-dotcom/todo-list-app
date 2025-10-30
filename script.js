@@ -32,5 +32,8 @@ function addTask(event) {
     listDiv.appendChild(label);
 
     // Append list-item div to the list
-    todoList.appendChild(listDiv);
+    todoList.appendChild(listDiv); 
+    trhjdhtrhjhrtjyrjyrttfj = rehrdth
+    ytjytfjfj = trhjdhtrhjhrtjyrjyrttfjhklgj
+    hkulhl = ghryj
 }
