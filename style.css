@@ -17,8 +17,59 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: stretch;
+
 }
-.main {
+.main h1 {
     text-align: end;
+}
+
+.list {
+    background-color:black;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 50px 20px;
+    flex-grow: 1;
+}
+
+.form {
+    background-color:black;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 50px 20px;
+    display: flex;
+}
+
+.form input {
+    font-size: 24px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.form button {
+    width: 80px;
+    background-color: inherit;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    border-radius: 20px;
+    font-size: 24px;
+}
+
+.list-item {
+    background-color: dodgerblue;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 8px;
+    display: row;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+}
+
+.list-item label {
+    font-size: 20px;
+}
+
+.list-item input {
+    width: 24px;
+    height: 24px;
 }
